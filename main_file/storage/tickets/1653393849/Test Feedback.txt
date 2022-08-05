@@ -1,0 +1,27 @@
+1) It is necessary to show the code of the ticket/link, to check the progress, as soon as the form is sent, so that the anonymous user (who will not enter the email and which will be in most cases), can select and copy to then check the progress. Because currently it only shows this screen with a link to click, this way the most ignorant users will not copy it by clicking with the right side of the mouse and going to the option to copy the link address... Another option is to show the ticket number, But then comes question number 2, which follows below.
+
+=> We will add the copy button from where user can copy the url.
+
+done
+
+2) To search for the ticket it is necessary to have the ticket number (which the anonymous user currently does not receive when submitting the form) and the email is also mandatory, as an anonymous user will check the status of the ticket if he has not filled in the email? Or if the user accidentally entered the wrong email? I believe that searching or checking the status, the best option is that you only need to fill in the ticket number.
+
+=> We will removed email address from serach ticket and only ticket number will require for search ticket.
+
+
+3) did some tests with attachment too and realized that if I put a file attached that is not allowed, it tries to send the ticket anyway, but it reloads without the attachment (but no warning appears), ideally it would not be possible attach or at least show an error message, for example, file type attached is not allowed, only files with the extensions jpeg, pdf, gif are allowed.
+I did the test with jpeg and webp file at the same time and the same thing happens, imagine if the user is sending 10 files and gives the error, he won't even know what happened and if he doesn't realize that the attachments are gone, he will just click again on send (as I already did)
+I just checked too, that if I forget to fill in a mandatory field and the error, the attachment also disappears.
+
+=> We will solve this issue.
+
+done
+
+4) How do I change the progress of a ticket? It is always in "in progress" it is necessary that the Admin and the agents can change at least the progress of the ticket, so that it is possible to know the progress of the same. I believe that for now it is these details that need to be verified and resolved.
+
+=> We have already provided this option from edit ticket function but as you have hide this function so it's not visible anymore. https://nimb.ws/JBVgI0
+   We will add this status change option on the details page. Do we need to set this option on user side also or only admin and agent?
+   
+   
+   
+   

@@ -1,0 +1,6 @@
+Please download documentation from here : 
+https://rajodiya.com/product/support-ticket-system/documentation
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Z5oy#ItgDEafyeF';
+exit
